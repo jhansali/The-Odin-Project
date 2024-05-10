@@ -45,7 +45,7 @@ h1{
 .content{
     display: flex;
     flex-direction: row;
-    margin: 100px;
+    margin-top: 100px;
 }
 
 .content-right{
@@ -80,4 +80,36 @@ img{
     height: 35px;
     border: 1px solid #3882F6;
     border-radius: 10px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.row-with-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.blue-box{
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.p-second{
+    text-align: center;
+}
+
+.second-section{
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
